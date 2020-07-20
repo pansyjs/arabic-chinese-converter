@@ -1,6 +1,6 @@
 {
   "name": "@pansyjs/arabic-chinese-converter",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "main": "index.js",
   "description": "Conversion between Chinese and Arabic numerals",
   "repository": "git@github.com:pansyjs/arabic-chinese-converter.git",
