@@ -26,5 +26,8 @@ yarn add @pansy/arabic-chinese-converter --dev
 ```
 import arabicChinese from '@pansy/arabic-chinese-converter';
 
+const arabicChinese = new ArabicChinese();
+
 console.log(arabicChinese.encode(1)); // 一
+console.log(arabicChinese.decode('一)); // 1
 ```
