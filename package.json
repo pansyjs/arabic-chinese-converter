@@ -1,5 +1,5 @@
 {
-  "name": "@pansyjs/arabic-chinese-converter",
+  "name": "@pansy/arabic-chinese-converter",
   "version": "1.0.0",
   "main": "index.js",
   "description": "Conversion between Chinese and Arabic numerals",
@@ -20,5 +20,8 @@
     "@walrus/test": "^1.0.1",
     "father-build": "^1.18.1",
     "typescript": "^3.9.7"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
