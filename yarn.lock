@@ -3054,7 +3054,7 @@
   dependencies:
     "@types/yargs-parser" "*"
 
-"@walrus/cli@^1.3.0":
+"@walrus/cli@1.3.0":
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/@walrus/cli/-/cli-1.3.0.tgz#9b800cbb94260ba669d56d3bd9a0d852b7686b61"
   integrity sha512-YZqbdDFYSV/4vLmeNvmX0CIVo+v91EHwngq3tk9qUzfyCBdy1WdGbjspNFvqM70MkV4Mf46CZRPXLjjOg9/FkQ==
@@ -3077,7 +3077,7 @@
     set-value "^3.0.1"
     tapable "^1.1.3"
 
-"@walrus/plugin-release@^1.8.1":
+"@walrus/plugin-release@1.8.1":
   version "1.8.1"
   resolved "https://registry.yarnpkg.com/@walrus/plugin-release/-/plugin-release-1.8.1.tgz#125161baf52dba20a28cfd28cdc5be8ab9a0b75a"
   integrity sha512-efM0D5H/W/DnNrJSNb2A8qfAJV2ptmWlgifMXAmLDysz3SsCn5IFs2xG/L7b8Wxfoe9plcuRqRJT8coceYp+9g==
@@ -3095,7 +3095,7 @@
   dependencies:
     "@walrus/types" "1.3.0"
 
-"@walrus/test@^1.0.1":
+"@walrus/test@1.0.1":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@walrus/test/-/test-1.0.1.tgz#832ab20c90092c125c8aeea89f3818010cb584ea"
   integrity sha512-d6160FXp9S7Q3PBsFT9fJOpAsyKOWTrr8KToJbxSaZOh0Mji9eLgu/0Jr0TM5oe7x1MWoYS6Iv+7y+fBpvWmEQ==
@@ -5462,7 +5462,7 @@ fastparse@^1.1.2:
   resolved "https://registry.yarnpkg.com/fastparse/-/fastparse-1.1.2.tgz#91728c5a5942eced8531283c79441ee4122c35a9"
   integrity sha512-483XLLxTVIwWK3QTrMGRqUfUpoOs/0hbQrl2oz4J0pAcm3A3bu84wxTFqGqkJzewCLdME38xJLJAxBABfQT8sQ==
 
-father-build@^1.18.1:
+father-build@1.18.1:
   version "1.18.1"
   resolved "https://registry.yarnpkg.com/father-build/-/father-build-1.18.1.tgz#6ca4b37ba4bf58ab400b22035cf4b1988eb618e5"
   integrity sha512-nouksCzBKTqxYfzATHwCejjONx76bfcMUgso1FR96eTHA9ST5WLzULjjyt+X7q8uaJqCLtSjO53U0EW7Kl/a0Q==
@@ -11341,7 +11341,7 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-typescript@^3.7.3, typescript@^3.9.7:
+typescript@3.9.7, typescript@^3.7.3:
   version "3.9.7"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.9.7.tgz#98d600a5ebdc38f40cb277522f12dc800e9e25fa"
   integrity sha512-BLbiRkiBzAwsjut4x/dsibSTB6yWpwT5qWmC2OfuCg3GgVQCSgMs4vEctYPhsaGtd0AeuuHMkjZ2h2WG8MSzRw==
