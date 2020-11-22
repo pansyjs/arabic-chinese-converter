@@ -1,4 +1,3 @@
-import isString from 'lodash/isString';
 import { defaultOptions } from './config';
 import { Options } from './types';
 import cns from './langs/cn-s';
@@ -59,7 +58,7 @@ export default class ArabicChinese {
    * @param options
    */
   decode = (zhNum: string, options?: Options): number | string => {
-    if (!isString(zhNum)) return zhNum;
+    if (!typeof zhNum) return zhNum;
     const _options = Object.assign({}, this.options, options);
     const lang = _options.lang === 'cn' ? cns : hks;
     return chineseToNumber(zhNum, lang);

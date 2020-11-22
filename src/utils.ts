@@ -1,8 +1,13 @@
-import isNil from 'lodash/isNil';
 import { Options, Lang, NumberResult } from './types';
 
 const REG_NUMBER = /^([+-])?0*(\d+)(\.(\d+))?$/;
 const REG_E = /^([+-])?0*(\d+)(\.(\d+))?e(([+-])?(\d+))$/i;
+
+function isNil(
+  value: any
+): value is null | undefined {
+  return value === undefined || value === null;
+}
 
 /**
  * @ignore
