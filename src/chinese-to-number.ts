@@ -1,5 +1,5 @@
-import { unshiftZero, getDigit, centerArray } from './utils';
-import { Lang } from './types';
+import { unshiftZero, getDigit, centerArray } from '@/utils';
+import { Lang } from '@/types';
 
 /**
  * @ignore

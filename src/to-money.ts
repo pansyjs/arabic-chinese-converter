@@ -1,9 +1,9 @@
-import { getNumberResult, clearZero } from './utils';
-import numberToChinese from './number-to-chinese';
-import { defaultOptions } from './config';
-import { Options } from './types';
-import cnb from './langs/cn-b';
-import hkb from './langs/hk-b';
+import { getNumberResult, clearZero } from '@/utils';
+import numberToChinese from '@/number-to-chinese';
+import { defaultOptions } from '@/config';
+import { Options } from '@/types';
+import cnb from '@/langs/cn-b';
+import hkb from '@/langs/hk-b';
 
 /**
  * @ignore

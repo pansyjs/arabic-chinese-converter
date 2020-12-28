@@ -1,10 +1,10 @@
-import { defaultOptions } from './config';
-import { Options } from './types';
-import cns from './langs/cn-s';
-import hks from './langs/hk-s';
-import numberToChinese from './number-to-chinese';
-import chineseToNumber from './chinese-to-number';
-import toMoney from './to-money';
+import { defaultOptions } from '@/config';
+import { Options } from '@/types';
+import cns from '@/langs/cn-s';
+import hks from '@/langs/hk-s';
+import numberToChinese from '@/number-to-chinese';
+import chineseToNumber from '@/chinese-to-number';
+import toMoney from '@/to-money';
 
 /**
  * 阿拉伯数字和中文数字互转

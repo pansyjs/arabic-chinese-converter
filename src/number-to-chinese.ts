@@ -2,9 +2,9 @@ import {
   getNumberResult,
   encodeInteger,
   clearZero
-} from './utils';
-import { Lang, Options } from './types';
-import { defaultOptions } from './config';
+} from '@/utils';
+import { Lang, Options } from '@/types';
+import { defaultOptions } from '@/config';
 
 /**
  * @ignore
